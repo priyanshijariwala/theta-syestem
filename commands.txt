@@ -2,3 +2,21 @@ git init
 git remote add origin https://github.com/priyanshijariwala/theta-syestem.git
 git remote -v
 git branch -M main
+
+git branch dev
+git branch stage
+git branch prod
+
+git checkout dev
+git checkout -b feature-ui
+touch ui.html
+git add ui.html
+git commit -m "develop ui in theta system"
+git push origin feature-ui
+
+git switch dev
+git switch -c feature-api
+touch api.html
+git add api.html
+git commit -m "api calling feature"
+git push origin feature-api
