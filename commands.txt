@@ -1,0 +1,4 @@
+git init
+git remote add origin https://github.com/priyanshijariwala/theta-syestem.git
+git remote -v
+git branch -M main
